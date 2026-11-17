@@ -1,0 +1,27 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Airflow logs
+logs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local Airflow configuration
+config/airflow.cfg
+
+# Generated ETL output files
+data/retail_sales_extracted.csv
+data/retail_sales_cleaned.csv
