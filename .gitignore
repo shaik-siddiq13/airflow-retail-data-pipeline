@@ -25,3 +25,7 @@ config/airflow.cfg
 # Generated ETL output files
 data/retail_sales_extracted.csv
 data/retail_sales_cleaned.csv
+
+# Daily retail pipeline runtime data
+data/incoming/*.csv
+data/processed/*.csv
